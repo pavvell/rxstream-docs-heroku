@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "rebuild": "git commit -am 'rebuild' --allow-empty; npm run deploy;"
   },
   "author": "",
   "license": "ISC",
